@@ -22,6 +22,7 @@ Using the following variables:
 ```ruby
 good_driving_record = true
 age = 24
+
 ```
 
 Write a program that evaluates the status of the variables above, and uses logic to print one of three possible messages:
