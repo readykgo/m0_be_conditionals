@@ -24,6 +24,7 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
 puts " is number_teachers less than number_students?" number_teachers < number_students
+
 bundle exec ruby main.rb
 is number_teachers less than number_students?
 true
@@ -134,12 +135,15 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+puts loves_toplay && loves_treats
 true
 
 # Determine if the dog loves to play and loves the dog park
+puts loves_to_play && loves_dog_park
 false
 
 # Determine if the dog loves to play or loves the dog park
+puts loves_to_play || loves_dog_park
 true
 
 # Determine if the dog loves to play and is a puppy
